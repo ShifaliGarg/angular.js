@@ -82,9 +82,9 @@ __`app/js/controllers.js`:__
 
 ```js
 
-var phonecatApp = angular.module('phonecatApp', []);
+var phonecatAppVar = angular.module('phonecatApp', []);
 
-phonecatApp.controller('PhoneListCtrl', function ($scope) {
+phonecatAppVar.controller('PhoneListCtrl', function ($scope) {
   $scope.phones = [
     {'name': 'Nexus S',
      'snippet': 'Fast just got faster with Nexus S.'},
